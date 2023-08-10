@@ -1,6 +1,8 @@
 import { Accordian } from "@/components/userComp/accoridan";
 import { AlertComponent } from "@/components/userComp/alert";
 import { AlertDialogComp } from "@/components/userComp/alert-dialog";
+import { ContextMenuComp } from "@/components/userComp/context-menu";
+import { DropdownMenuComp } from "@/components/userComp/dropdown";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
         <Accordian />
         <AlertComponent />
         <AlertDialogComp />
+        <ContextMenuComp />
+        <DropdownMenuComp />
       </div>
     </main>
   );
