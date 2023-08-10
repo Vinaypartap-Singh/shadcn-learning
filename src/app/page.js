@@ -1,5 +1,6 @@
 import { Accordian } from "@/components/userComp/accoridan";
-import Image from "next/image";
+import { AlertComponent } from "@/components/userComp/alert";
+import { AlertDialogComp } from "@/components/userComp/alert-dialog";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
       <div className="w-full">
         <h1 className="text-center">Accoridon Example</h1>
         <Accordian />
+        <AlertComponent />
+        <AlertDialogComp />
       </div>
     </main>
   );
